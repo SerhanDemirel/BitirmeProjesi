@@ -4,8 +4,8 @@ import pandas as pd
 
 st.title('Crypto Trading Bot')
 
-api_key = st.sidebar.text_input("njdF90HQ3oyUtHof4YG5kQGomrZFpGxOflQDvcqDrhHw854kHEUhIhm0S3xOcK6U", value='', type='password')
-api_secret = st.sidebar.text_input("njdF90HQ3oyUtHof4YG5kQGomrZFpGxOflQDvcqDrhHw854kHEUhIhm0S3xOcK6U", value='', type='password')
+api_key = st.sidebar.text_input("bd494f60c4ed0287c4173e1e11f5b142a615e117e882ebebd901be7d38923a1d", value='', type='password')
+api_secret = st.sidebar.text_input("d613bba14cdedbae1df707e97b0a6046ec63a1924dbf9452c3dc4fc749014776", value='', type='password')
 
 # Create a Binance client
 client = Client(api_key, api_secret, testnet=True)
